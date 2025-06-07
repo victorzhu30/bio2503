@@ -168,6 +168,13 @@ echo "INFO: Script finished!!!"
     ./assembly_pipeline.sh
     ```
 
+## Advice
+
+- Although the script is written, it is still recommended to run it line by line, observing the output and log files at each step to ensure no errors occur.
+- Ensure you have sufficient disk space and memory available, as genome assembly can be resource-intensive.
+- Adjust the number of threads (`-t`) based on your system's capabilities.
+- Check the paths in the script to ensure they match your directory structure.
+
 ## References
 [1] https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000294
 
